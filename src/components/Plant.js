@@ -1,15 +1,15 @@
-// import React from "react";
-// import IngredientsList from "./IngredientsList";
-// import Instructions from "./Instructions";
+import React from "react";
+import CareList from "./Care";
+import Care from "./Care";
 
-// function Plant({ name, ingredients, steps }) {
-//   return (
-//     <section id={name.toLowerCase().replace(/ /g, "-")}>
-//       <h1>{name}</h1>
-//       <IngredientsList list={ingredients} />
-//       <Instructions title="Cooking Instructions" steps={steps} />
-//     </section>
-//   );
-// }
+function Plant({ name, description, care }) {
+  return (
+    <section id={name.toLowerCase().replace(/ /g, "-")}>
+      <h1>{name}</h1>
+      <p>{description}</p>
+      <Care care={care} />
+    </section>
+  );
+}
 
-// export default Plant;
+export default Plant;

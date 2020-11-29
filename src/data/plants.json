@@ -23,7 +23,7 @@
               "water": "Medium",
               "light": "Indirect sunlight", 
               "fertilization": "Once every month (summer)",
-              "soil": "Once every two years" 
+              "repot": "Once every two years" 
           }
         
       },
@@ -37,7 +37,7 @@
                 "water": "High",
                 "light": "Indirect sunlight", 
                 "fertilization": "Once every two weeks (summer)",
-                "soil": "Once every two years" 
+                "repot": "Once every two years" 
             }
           
         },
@@ -51,7 +51,7 @@
                   "water": "Very low",
                   "light": "No requirements", 
                   "fertilization": "Once every month (summer)",
-                  "soil": "Once every three years" 
+                  "repot": "Once every three years" 
               }
             
           }

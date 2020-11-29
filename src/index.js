@@ -1,10 +1,9 @@
 import React from "react";
 import { render } from "react-dom";
-import Plant from "./components/Plant";
+import Plants from "./components/Plants";
 import data from "./data/plants.json";
 
 render(
-//   <Plant plants={data} />,
-<h1>Hello</h1>,
+  <Plants plants={data} />,
   document.getElementById("root")
 );

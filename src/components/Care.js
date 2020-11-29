@@ -1,9 +1,12 @@
 import React from "react";
 
-export default function Care({ water, light, fertilization, repot }) {
+export default function Care({ care }) {
   return (
-    <li>
-      {water} {light} {fertilization} {repot}
-    </li>
+    <ul>
+        <li>{care.water}</li>
+        <li>{care.light}</li>
+        <li>{care.fertilization}</li>
+        <li>{care.repot}</li>
+    </ul>
   );
 }

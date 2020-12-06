@@ -1,12 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export default function Care({ care }) {
+export default function Care({ name, value, icon }) {
   return (
-    <ul>
-        <li>{care.water}</li>
-        <li>{care.light}</li>
-        <li>{care.fertilization}</li>
-        <li>{care.repot}</li>
-    </ul>
+    <li>
+      <FontAwesomeIcon icon={icon} />
+      {name}: {value}
+    </li>
   );
 }

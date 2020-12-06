@@ -1,13 +1,12 @@
 import React from "react";
-import CareList from "./Care";
-import Care from "./Care";
+import CareList from "./CareList";
 
 function Plant({ name, description, care }) {
   return (
     <section id={name.toLowerCase().replace(/ /g, "-")}>
-      <h1>{name}</h1>
+      <h2>{name}</h2>
       <p>{description}</p>
-      <Care care={care} />
+      <CareList list={care} />
     </section>
   );
 }

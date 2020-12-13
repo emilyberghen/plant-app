@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import './App.css';
 
 import Plants from "./components/Plants";
 import data from "./data/plants.json";

@@ -8,7 +8,38 @@ h1, h2, h3 {
     font-weight: 600;
 }
 
+h1 {
+    padding: 2rem 0;
+    text-transform: uppercase;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-gap: 0 75px;
+    align-items: start;
+    justify-content: start;
+    padding: 25px 0;
+}
+
+img {
+    grid-column: 1;
+    grid-row: 1/-1;
+    width: 100%;
+    align-self: center;
+}
+
+section h2 {
+    grid-row: 1;
+}
+
+section p {
+    grid-row: 2;
+}
+
 .care {
+    grid-row: 1/-1;
     display: grid;
     grid-template-columns: 50px 20px 1fr;
     align-items: center;
@@ -17,4 +48,22 @@ h1, h2, h3 {
 
 .care ul {
     grid-column: 1/-1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+li svg {
+    padding-right: 5px;
+}
+
+@media (min-width: 1021px) {
+    #root {
+        max-width: 900px;
+        margin: 0 auto;
+    }
 }

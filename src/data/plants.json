@@ -4,6 +4,7 @@
       "description": [
         "With the Monstera deliciosa, nature presents a magnificent specimen, which is more commonly known as “Swiss Cheese Plant”. Its striking leaf structures and the white to delicate yellow flowers spread a tropical flair. It is said to be rather easy-care, even though it makes a certain degree of demands in order to thrive."
       ],
+      "image": "assets/images/monstera.jpg",
       "care": 
         [ 
             {"name": "water", "value": "Medium", "icon": "tint"},
@@ -18,6 +19,7 @@
         "description": [
           "Up to the 1970s, the rubber bush has been one of the most prominent plants in any German household. It also looks amazing as a pot plant in stairwells or office buildings. The Ficus Elastica is equipped with big, rubbery, dark-green and shiny leaves. The tropical ornamental tree is a very tough and low-maintenance plant with which you will be quite happy."
         ],
+        "image": "assets/images/ficus.jpg",
         "care": 
           [ 
             {"name": "water", "value": "Medium", "icon": "tint"},
@@ -32,6 +34,7 @@
           "description": [
             "With its magnificent flowers and large green leaves the bird of paradise creates a tropical flair. Like an exotic fan, the orange-yellow and blue shining petals are stretching towards the sky. It doesn’t seem so, but the Strelitzia reginae is quite unpretentious. Good care ensures intensive growth and great blossom splendor."
           ],
+          "image": "assets/images/strelitzia.jpg",
           "care": 
             [ 
               {"name": "water", "value": "High", "icon": "tint"},
@@ -45,6 +48,7 @@
             "description": [
               "One of the most easy to cultivate plants is the air purifying ZZ plant (Zamioculcas zamiifolia). It impresses with decorative feathery leaves, an exotic flair and, above all, with its modest requirements regarding the watering, fertilizing and wintering. It forgives most of the care mistakes and is almost resistant to illnesses."
             ],
+            "image": "assets/images/zz.jpg",
             "care": 
               [ 
                 {"name": "water", "value": "Very low", "icon": "tint"},

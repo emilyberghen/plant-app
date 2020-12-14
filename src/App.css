@@ -1,7 +1,7 @@
 body {
     background-color: #206a5d;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1, h2, h3 {
@@ -10,7 +10,13 @@ h1, h2, h3 {
 
 h1 {
     padding: 2rem 0;
-    text-transform: uppercase;
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+p {
+    line-height: 1.4;
 }
 
 section {
